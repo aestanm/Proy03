@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    public class CreditCardPaymment : IPaymentMode
+    public class PsePayment : IPaymentMode
     {
         public void MakePayment()
         {
-            Console.WriteLine("Pago Con Tarjeta de Credito Activado");
+            Console.WriteLine("Pago Con PSE Activado");
         }
     }
 }
